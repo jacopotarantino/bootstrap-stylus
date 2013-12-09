@@ -4,6 +4,6 @@ exports.path = __dirname;
 
 exports = module.exports = function () {
   return function(style){
-    style.include(__dirname + '/styl');
+    style.include(__dirname + '/stylus');
   }
 }
